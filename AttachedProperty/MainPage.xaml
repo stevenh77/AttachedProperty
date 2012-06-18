@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="AttachedProperty.MainPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:b="clr-namespace:AttachedProperty">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <StackPanel b:ContentMargin.Margin="10,5,20,15">
+            <TextBlock HorizontalAlignment="Center" Text="Stack Panel" />
+            <Button>Button #1</Button>
+            <Button>Button #2</Button>
+            <Button>Button #3</Button>
+            <Button>Button #4</Button>
+            <Button>Button #5</Button>
+            <Button>Button #6</Button>
+        </StackPanel>
+    </Grid>
+</UserControl>
